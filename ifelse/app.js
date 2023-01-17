@@ -3,27 +3,14 @@ class App
     runApplication()
     
     {
-        console.log("Hello world!")
-        let appNaam = "kaas"
-        let versienummer = 0.9
-        let versiedatum = 22-11
-        let autheur = "Kjell"
-        let copyright = "Niet copy pasten"
-        let distributeur = "Kaas"
-        let darkmode = true
-    
-            onsole.log (appNaam)
-            console.log (versienummer)
-            console.log (versiedatum)
-            console.log (autheur)
-            console.log (copyright)
-            console.log (distributeur)
-            console.log (darkmode)
+        let kaas = document.getElementById("newstitle")
+        let randomGetal = Math.random();
+        title.style.backgroundcolor ="#379fed";
         
+
     }
-
 }
-
 let app = new App();
 app.runApplication();
 
+//dit is code commentaar voor javascript
